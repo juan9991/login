@@ -1,0 +1,50 @@
+.h1{
+    text-decoration-color: cyan;
+} 
+.contenido{
+    background:rgba(255,255,255,0.5);
+    margin: 100px;
+    padding: 100px;
+    
+    /* IMPORTANTE */
+    text-align: center;
+    border-radius: 5%;
+  }
+.tb{
+  color: rgb(19, 18, 18);
+}
+  
+
+body {
+    
+    font-family: 'Quicksand', sans-serif;
+
+    /* Ubicación de la imagen */
+    
+    background-image: url(fondo.jpg);
+    
+    /* Para dejar la imagen de fondo centrada, vertical y
+    
+    horizontalmente */
+    
+    background-position: center center;
+    
+    /* Para que la imagen de fondo no se repita */
+    
+    background-repeat: no-repeat;
+    
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    
+    background-attachment: fixed;
+    
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    
+    background-size: cover;
+    
+    /* Se muestra un color de fondo mientras se está cargando la imagen
+    
+    de fondo o si hay problemas para cargarla */
+    
+    
+    
+    }
